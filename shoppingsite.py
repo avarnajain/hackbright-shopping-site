@@ -147,7 +147,7 @@ def process_login():
     # - if they don't, flash a failure message and redirect back to "/login"
     # - do the same if a Customer with that email doesn't exist
 
-    return "Oops! This needs to be implemented"
+    return render_template("login.html")
 
 
 @app.route("/checkout")
